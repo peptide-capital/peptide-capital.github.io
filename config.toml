@@ -1,0 +1,26 @@
+baseURL = 'https://peptide.vc/'
+languageCode = 'en-us'
+title = 'Peptide Capital'
+theme = 'air'
+
+[author]
+  name = "Wu"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug"
+
+[params]
+  description = ""
+  logo = ""
+  author = "Wu"
+  cover = "images/user.jpg"
+  authorlocation = ""
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = "wujiang"
+  twitterName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = true
+  mainSections = ["post"]
+  disableKinds = ["section", "sitemap", "404", "page", "home"]
