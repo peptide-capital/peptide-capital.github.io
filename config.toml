@@ -1,4 +1,5 @@
-baseURL = 'https://peptide.vc/'
+# baseURL = 'https://peptide.vc/'
+baseURL = 'https://peptide-capital.github.io/'
 languageCode = 'en-us'
 title = 'Peptide Capital'
 theme = 'air'
